@@ -7,14 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010524D71E69FE0D00E92C95 /* AddCommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010524D61E69FE0D00E92C95 /* AddCommentsViewController.swift */; };
+		010524D91E6A048B00E92C95 /* SubmitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010524D81E6A048B00E92C95 /* SubmitViewController.swift */; };
+		010524DD1E6A0B2C00E92C95 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010524DC1E6A0B2C00E92C95 /* CloudKit.framework */; };
+		010524DF1E6A2F3400E92C95 /* Whistle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010524DE1E6A2F3400E92C95 /* Whistle.swift */; };
+		010524E11E6A43ED00E92C95 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010524E01E6A43ED00E92C95 /* ResultsViewController.swift */; };
+		010524E31E6A76CA00E92C95 /* MyGenresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010524E21E6A76CA00E92C95 /* MyGenresViewController.swift */; };
 		0194FC5F1E68B2CB001B7EE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0194FC5E1E68B2CB001B7EE1 /* AppDelegate.swift */; };
 		0194FC611E68B2CB001B7EE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0194FC601E68B2CB001B7EE1 /* ViewController.swift */; };
 		0194FC641E68B2CB001B7EE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0194FC621E68B2CB001B7EE1 /* Main.storyboard */; };
 		0194FC661E68B2CB001B7EE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0194FC651E68B2CB001B7EE1 /* Assets.xcassets */; };
 		0194FC691E68B2CB001B7EE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0194FC671E68B2CB001B7EE1 /* LaunchScreen.storyboard */; };
+		0194FC711E68B4AF001B7EE1 /* RecordWhistleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0194FC701E68B4AF001B7EE1 /* RecordWhistleViewController.swift */; };
+		0194FC731E68D3C9001B7EE1 /* SelectGenreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0194FC721E68D3C9001B7EE1 /* SelectGenreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		010524D61E69FE0D00E92C95 /* AddCommentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCommentsViewController.swift; sourceTree = "<group>"; };
+		010524D81E6A048B00E92C95 /* SubmitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitViewController.swift; sourceTree = "<group>"; };
+		010524DA1E6A0B2300E92C95 /* Project33.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Project33.entitlements; sourceTree = "<group>"; };
+		010524DC1E6A0B2C00E92C95 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		010524DE1E6A2F3400E92C95 /* Whistle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Whistle.swift; sourceTree = "<group>"; };
+		010524E01E6A43ED00E92C95 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		010524E21E6A76CA00E92C95 /* MyGenresViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyGenresViewController.swift; sourceTree = "<group>"; };
 		0194FC5B1E68B2CB001B7EE1 /* Project33.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project33.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0194FC5E1E68B2CB001B7EE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0194FC601E68B2CB001B7EE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +37,8 @@
 		0194FC651E68B2CB001B7EE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0194FC681E68B2CB001B7EE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0194FC6A1E68B2CC001B7EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0194FC701E68B4AF001B7EE1 /* RecordWhistleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordWhistleViewController.swift; sourceTree = "<group>"; };
+		0194FC721E68D3C9001B7EE1 /* SelectGenreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectGenreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +46,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				010524DD1E6A0B2C00E92C95 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		010524DB1E6A0B2C00E92C95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				010524DC1E6A0B2C00E92C95 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0194FC521E68B2CB001B7EE1 = {
 			isa = PBXGroup;
 			children = (
 				0194FC5D1E68B2CB001B7EE1 /* Project33 */,
 				0194FC5C1E68B2CB001B7EE1 /* Products */,
+				010524DB1E6A0B2C00E92C95 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,8 +81,16 @@
 		0194FC5D1E68B2CB001B7EE1 /* Project33 */ = {
 			isa = PBXGroup;
 			children = (
+				010524DA1E6A0B2300E92C95 /* Project33.entitlements */,
 				0194FC5E1E68B2CB001B7EE1 /* AppDelegate.swift */,
 				0194FC601E68B2CB001B7EE1 /* ViewController.swift */,
+				0194FC701E68B4AF001B7EE1 /* RecordWhistleViewController.swift */,
+				0194FC721E68D3C9001B7EE1 /* SelectGenreViewController.swift */,
+				010524D61E69FE0D00E92C95 /* AddCommentsViewController.swift */,
+				010524D81E6A048B00E92C95 /* SubmitViewController.swift */,
+				010524DE1E6A2F3400E92C95 /* Whistle.swift */,
+				010524E01E6A43ED00E92C95 /* ResultsViewController.swift */,
+				010524E21E6A76CA00E92C95 /* MyGenresViewController.swift */,
 				0194FC621E68B2CB001B7EE1 /* Main.storyboard */,
 				0194FC651E68B2CB001B7EE1 /* Assets.xcassets */,
 				0194FC671E68B2CB001B7EE1 /* LaunchScreen.storyboard */,
@@ -98,6 +133,14 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = DG4WJC99E5;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -138,7 +181,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0194FC611E68B2CB001B7EE1 /* ViewController.swift in Sources */,
+				010524D71E69FE0D00E92C95 /* AddCommentsViewController.swift in Sources */,
 				0194FC5F1E68B2CB001B7EE1 /* AppDelegate.swift in Sources */,
+				0194FC731E68D3C9001B7EE1 /* SelectGenreViewController.swift in Sources */,
+				010524E31E6A76CA00E92C95 /* MyGenresViewController.swift in Sources */,
+				010524DF1E6A2F3400E92C95 /* Whistle.swift in Sources */,
+				010524D91E6A048B00E92C95 /* SubmitViewController.swift in Sources */,
+				0194FC711E68B4AF001B7EE1 /* RecordWhistleViewController.swift in Sources */,
+				010524E11E6A43ED00E92C95 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +309,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Project33/Project33.entitlements;
 				DEVELOPMENT_TEAM = DG4WJC99E5;
 				INFOPLIST_FILE = Project33/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -272,6 +323,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Project33/Project33.entitlements;
 				DEVELOPMENT_TEAM = DG4WJC99E5;
 				INFOPLIST_FILE = Project33/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -300,6 +352,7 @@
 				0194FC6F1E68B2CC001B7EE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
